@@ -25,21 +25,21 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `siswa`
+-- Table structure for table `pegawai`
 --
 
-CREATE TABLE `siswa` (
+CREATE TABLE `pegawai` (
   `nis` varchar(255) NOT NULL,
   `nama` varchar(255) NOT NULL,
   `alamat` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `siswa`
+-- Dumping data for table `pegawai`
 --
 
-INSERT INTO `siswa` (`nis`, `nama`, `alamat`) VALUES
-('11706286', 'Novi Widia Damayanti', 'Perumahan Unitex');
+INSERT INTO `pegawai` (`nis`, `nama`, `alamat`) VALUES
+('11706286', 'Novi Widia Damayanti', 'Perkantoran Unitex');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
