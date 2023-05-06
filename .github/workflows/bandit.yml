@@ -10,7 +10,7 @@
 # https://github.com/marketplace/actions/bandit-scan is ISC licensed, by abirismyname
 # https://pypi.org/project/bandit/ is Apache v2.0 licensed, by PyCQA
 
-name: Bandit
+name: Nirwana
 on:
   push:
     branches: [ "master" ]
@@ -18,7 +18,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
   schedule:
-    - cron: '25 2 * * 5'
+    - cron: '30 3 * * 0'
 
 jobs:
   bandit:
